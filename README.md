@@ -38,6 +38,6 @@ $$P_{r}= P_{0} - \beta \cdot 10~log_{10}(\frac{d}{d_{0}}) + X_{\sigma}$$
 
 Here, $X_{\sigma}$ is Gaussian noise with zero mean and variance $\sigma^2$.
 
-|$P_{0}$|the reference received power|
-|$d_{0}$| reference distance |
-|$X_{\sigma}$| Gaussian noise with standard deviation between 4 and 12 |
+| $P_{0}$ | the reference received power |
+| $d_{0}$ | reference distance |
+| $X_{\sigma}$ | Gaussian noise with standard deviation between 4 and 12 |
