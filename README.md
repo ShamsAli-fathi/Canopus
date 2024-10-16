@@ -52,15 +52,25 @@ $\beta$ and $X_{\sigma}$ through data collection and regression.
 ### 1.Data Collection
 
 The signal strength and distance between the phone and the base stations were measured at various points, including line-of-sight and non-line-of-sight locations (such as streets and parks). This sampling process was done every second as we moved between different base stations.
-Reference Value Estimation: Using regression on the collected data, we estimate the reference received power
+
+### 2.Reference Value Estimation
+
+Using regression on the collected data, we estimate the reference received power
 $P_{0}$​
 and the reference distance
 $d_{0}$.
 In this experiment, we assume a reference distance of 10 meters.
-Path Loss Coefficient and Noise Estimation: By fitting a curve to the signal strength data, we estimate the path loss coefficient
+
+### 3.Path Loss Coefficient and Noise Estimation:
+
+By fitting a curve to the signal strength data, we estimate the path loss coefficient
 
 $$\beta : 1.5035$$
 
 and the noise standard deviation
 
 $$\sigma : 13.4487$$
+
+## Reference
+
+_E. D. O. Shoewu, L. Akinyemi, J. Emagbetere, and F. Edeko, "Path loss in Nigerian rural vegetation area: A case study in Igbaraoke, Ondo state," November 2014._
