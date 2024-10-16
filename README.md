@@ -14,7 +14,7 @@
   </p>
 </div>
 
-# Description
+# Problem Description
 
 In wireless telecommunications, the signal strength decreases or attenuates during transmission, especially over long distances. The attenuation increases exponentially with the distance between the transmitter and the receiver. This report attempts to assist in estimating the attenuation in different conditions. One common model for path loss estimation is the Path Loss Exponent and Shadowing Gaussian Noise models in urban environments, which we will explore using machine learning techniques.
 
@@ -43,3 +43,24 @@ Here, $X_{\sigma}$ is Gaussian noise with zero mean and variance $\sigma^2$.
 | $P_{0}$      | the reference received power                            |
 | $d_{0}$      | reference distance                                      |
 | $X_{\sigma}$ | Gaussian noise with standard deviation between 4 and 12 |
+
+The goal of this project is to estimate the parameters
+$\beta$ and $X_{\sigma}$ through data collection and regression.
+
+## Execution
+
+### 1.Data Collection
+
+The signal strength and distance between the phone and the base stations were measured at various points, including line-of-sight and non-line-of-sight locations (such as streets and parks). This sampling process was done every second as we moved between different base stations.
+Reference Value Estimation: Using regression on the collected data, we estimate the reference received power
+$P_{0}$​
+and the reference distance
+$d_{0}$.
+In this experiment, we assume a reference distance of 10 meters.
+Path Loss Coefficient and Noise Estimation: By fitting a curve to the signal strength data, we estimate the path loss coefficient
+
+$$\beta : 1.5035$$
+
+and the noise standard deviation
+
+$$\sigma : 13.4487$$
