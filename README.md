@@ -13,10 +13,18 @@
     <a href="linkedin.com/in/ali-fathi-vafegh-84bb0a274/">My Linkedin</a>
   </p>
 </div>
-
-# Problem Description
+ 
+# Description
 
 In wireless telecommunications, the signal strength decreases or attenuates during transmission, especially over long distances. The attenuation increases exponentially with the distance between the transmitter and the receiver. This report attempts to assist in estimating the attenuation in different conditions. One common model for path loss estimation is the Path Loss Exponent and Shadowing Gaussian Noise models in urban environments, which we will explore using machine learning techniques.
+
+## Tools
+
+- Python
+- IPhone 8
+- Network Cell Info Lite
+
+## Problem
 
 In telecommunications engineering, the Friis equation, also known as the free space path loss (FSPL) equation, is used to calculate the power received by an antenna at a certain distance from a transmitting antenna. The equation depends on factors like transmitted power (Pt), transmitting antenna gain (Gt), receiving antenna gain (Gr), and distance (d).
 
@@ -70,6 +78,10 @@ $$\beta : 1.5035$$
 and the noise standard deviation
 
 $$\sigma : 13.4487$$
+
+## Data & Script
+
+The gathered data and python scripts are all provided [here](https://github.com/ShamsAli-fathi/Canopus/tree/main/src)
 
 ## Reference
 
