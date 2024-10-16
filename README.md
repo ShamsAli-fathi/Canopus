@@ -8,7 +8,7 @@
   <h3 align="center">CANOPUS - Parameter Estimation for Large-Scale Channel Models</h3>
 
   <p align="center">
-    wireless telecommunications
+    Wireless Telecommunications
     <br />
     <a href="linkedin.com/in/ali-fathi-vafegh-84bb0a274/">My Linkedin</a>
   </p>
@@ -27,3 +27,17 @@ $$Pr = P_{t} \cdot G_{t} \cdot G_{r} \left( \frac{\lambda}{4 \pi R} \right)^2$$
 or in logarithmic form:
 
 $$Pr = P_{t} + G_{t} + G_{r} - P_{L}$$
+
+where the path loss is:
+
+$$P_{L}= \beta \cdot 10~log_{10}(\frac{4\pi d}{\lambda})$$
+
+Further simplifying, we get:
+
+$$P_{r}= P_{0} - \beta \cdot 10~log_{10}(\frac{d}{d_{0}}) + X_{\sigma}$$
+
+Here, $X_{\sigma}$ is Gaussian noise with zero mean and variance $\sigma^2$.
+
+|$P_{0}$|the reference received power|
+|$d_{0}$| reference distance |
+|$X_{\sigma}$| Gaussian noise with standard deviation between 4 and 12 |
