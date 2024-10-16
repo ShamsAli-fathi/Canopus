@@ -63,15 +63,27 @@ $\beta$ and $X_{\sigma}$ through data collection and regression.
 
 ### 1.Data Collection
 
-The signal strength and distance between the phone and the base stations were measured at various points, including line-of-sight and non-line-of-sight locations (such as streets and parks). This sampling process was done every second as we moved between different base stations.
+We collected data by measuring signal quality between a mobile phone and three base stations, including both line-of-sight (e.g., streets) and non-line-of-sight locations (e.g., parks). Sampling was done every second during movement, with 81 data samples collected. Figure 1 shows a map of the sample points and base stations, indicating locations where signal quality deteriorated due to obstructions such as buildings and narrow streets. The data was gathered from 3 separate base stations.
+
+<figure>
+  <img src="https://github.com/ShamsAli-fathi/Canopus/blob/main/src/1.jpg" alt="Fig1">
+  <figcaption>Figure 1: Route map and sampling of base stations along with color display of signal quality</figcaption>
+</figure>
 
 ### 2.Reference Value Estimation
 
-Using regression on the collected data, we estimate the reference received power
+By applying regression techniques to the collected data, we estimated the reference received power
 $P_{0}$​
 and the reference distance
 $d_{0}$.
-In this experiment, we assume a reference distance of 10 meters.
+In this experiment, a reference distance of 10 meters was assumed, and we calculated
+$P_{0}$​
+to be approximately -64 dBm, as shown in Figure 2.
+
+<figure>
+  <img src="https://github.com/ShamsAli-fathi/Canopus/blob/main/src/plot.png" alt="Fig2">
+  <figcaption>Figure 2: changes in Signal Quality in relation to Distance from the base station </figcaption>
+</figure>
 
 ### 3.Path Loss Coefficient and Noise Estimation:
 
