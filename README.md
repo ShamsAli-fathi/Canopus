@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="">
-    <img src="https://www.pasternack.com/Images/reference-tools/images/Friis%20Equation.png" alt="Logo" width="160" height="160">
+    <img src="https://www.trance-cat.com/electrical-circuit-calculators/friis-transmission-equation.jpg" alt="Logo" width="160" height="160">
   </a>
 
   <h3 align="center">CANOPUS - Parameter Estimation for Large-Scale Channel Models</h3>
