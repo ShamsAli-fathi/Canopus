@@ -25,7 +25,7 @@ In wireless telecommunications, the signal strength decreases or attenuates duri
 - pandas
 - numpy
 - matplotlib
-- IPhone 8
+- Samsung_SM-A305FN
 - Network Cell Info Lite
 
 ## Problem
